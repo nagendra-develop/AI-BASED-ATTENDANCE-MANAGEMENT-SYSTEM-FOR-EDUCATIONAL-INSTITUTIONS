@@ -22,13 +22,13 @@ The system helps monitor attendance performance, identify low-attendance student
 ---
 
 ## 📂 Project Structure
-Attendance-Management-Dashboard/
+'''Attendance-Management-Dashboard/
 │
 ├── Datasets/
 ├── Sql_queries/
 ├── PowerBi_Dashboard/
 ├── Screenshots/
-└── README.md
+└── README.md'''
 
 
 ---
