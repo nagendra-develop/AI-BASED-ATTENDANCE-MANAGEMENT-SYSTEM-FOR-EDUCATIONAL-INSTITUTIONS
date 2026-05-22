@@ -1,0 +1,1001 @@
+student_id,age,gender,course,year,parent_education,internet_access,hostel_resident
+1,17,male,pharmacy,"1st year","high school",no,yes
+2,23,other,diploma,"2nd year","high school",yes,yes
+3,22,male,b.sc,"3rd year","no formal",yes,yes
+4,20,other,pharmacy,"2nd year","no formal",yes,yes
+5,20,female,pharmacy,"1st year","no formal",yes,yes
+6,23,male,b.tech,"4th year","no formal",yes,yes
+7,17,female,b.tech,"1st year",phd,yes,no
+8,22,male,b.com,"1st year","no formal",yes,yes
+9,18,other,nursing,"2nd year","high school",no,yes
+10,17,male,bca,"1st year",phd,yes,yes
+11,21,female,bba,"3rd year","no formal",yes,yes
+12,24,male,ba,"2nd year","post graduate",no,no
+13,22,female,bba,"4th year","high school",yes,no
+14,23,female,bca,"1st year","high school",yes,yes
+15,22,male,b.tech,"2nd year",graduate,yes,yes
+16,23,other,bca,"3rd year",graduate,no,yes
+17,21,male,b.sc,"3rd year","post graduate",no,no
+18,18,male,nursing,"2nd year","post graduate",yes,yes
+19,23,female,b.sc,"4th year","no formal",no,yes
+20,20,male,b.tech,"4th year","no formal",yes,no
+21,21,female,ba,"3rd year","post graduate",yes,no
+22,19,other,ba,"3rd year","high school",yes,yes
+23,18,male,bba,"3rd year","no formal",yes,yes
+24,24,female,nursing,"2nd year",graduate,yes,yes
+25,23,male,diploma,"3rd year","high school",yes,yes
+26,22,male,ba,"4th year",phd,yes,yes
+27,20,male,diploma,"1st year",phd,yes,no
+28,23,male,bba,"1st year","no formal",no,yes
+29,21,female,b.com,"2nd year","post graduate",yes,yes
+30,20,other,b.tech,"3rd year",phd,yes,no
+31,20,other,b.tech,"1st year","post graduate",yes,no
+32,18,male,b.com,"3rd year","post graduate",yes,no
+33,17,other,nursing,"1st year",graduate,yes,yes
+34,21,female,bba,"1st year",graduate,yes,no
+35,24,female,bba,"2nd year","no formal",no,yes
+36,17,other,ba,"1st year","no formal",yes,yes
+37,23,female,b.com,"3rd year","post graduate",yes,no
+38,23,male,diploma,"3rd year",graduate,yes,yes
+39,19,female,b.tech,"3rd year","no formal",yes,no
+40,22,other,bca,"3rd year","high school",yes,no
+41,18,other,pharmacy,"3rd year","post graduate",yes,no
+42,23,male,nursing,"3rd year","no formal",no,yes
+43,22,other,ba,"3rd year","high school",yes,yes
+44,19,male,nursing,"1st year",phd,yes,no
+45,17,other,b.com,"3rd year",graduate,yes,yes
+46,24,male,b.com,"1st year",graduate,yes,yes
+47,20,male,ba,"1st year","no formal",yes,yes
+48,24,other,b.tech,"4th year","no formal",yes,yes
+49,22,female,b.com,"1st year","post graduate",yes,yes
+50,23,male,nursing,"1st year","high school",yes,yes
+51,23,male,diploma,"2nd year","high school",yes,no
+52,18,male,b.com,"4th year","no formal",yes,yes
+53,19,male,b.com,"4th year","post graduate",yes,no
+54,20,other,ba,"3rd year",phd,no,no
+55,20,male,b.sc,"1st year","high school",yes,no
+56,17,male,b.sc,"3rd year","high school",yes,yes
+57,21,other,pharmacy,"4th year","post graduate",yes,no
+58,18,other,diploma,"2nd year",graduate,yes,yes
+59,22,male,diploma,"2nd year","post graduate",no,no
+60,22,female,b.com,"4th year","post graduate",yes,no
+61,24,female,nursing,"1st year","post graduate",yes,no
+62,22,female,b.sc,"4th year","no formal",yes,yes
+63,19,male,pharmacy,"2nd year",graduate,yes,yes
+64,24,other,bba,"3rd year",graduate,yes,no
+65,20,other,b.com,"2nd year",phd,yes,yes
+66,19,other,diploma,"3rd year","post graduate",yes,yes
+67,24,other,ba,"4th year","post graduate",yes,yes
+68,19,male,b.com,"2nd year",phd,yes,yes
+69,17,female,diploma,"1st year","post graduate",yes,no
+70,20,other,diploma,"1st year","post graduate",yes,yes
+71,23,female,bca,"4th year",graduate,yes,no
+72,18,other,bba,"4th year","no formal",yes,no
+73,20,female,b.com,"3rd year","post graduate",yes,no
+74,18,other,ba,"1st year","high school",yes,yes
+75,22,other,nursing,"4th year","no formal",yes,no
+76,20,female,ba,"2nd year","high school",no,no
+77,19,other,pharmacy,"1st year","high school",yes,no
+78,18,female,b.sc,"2nd year","high school",yes,no
+79,21,male,b.sc,"4th year","high school",yes,yes
+80,22,female,b.com,"4th year",phd,yes,yes
+81,24,other,b.tech,"3rd year",phd,yes,no
+82,20,male,nursing,"3rd year","no formal",yes,yes
+83,18,male,ba,"4th year",graduate,yes,no
+84,23,female,b.tech,"3rd year","high school",yes,no
+85,22,female,bca,"2nd year",phd,yes,yes
+86,22,female,pharmacy,"1st year",graduate,yes,no
+87,17,female,pharmacy,"1st year","post graduate",no,no
+88,19,female,b.tech,"1st year","no formal",yes,no
+89,23,male,nursing,"4th year","post graduate",no,no
+90,23,male,ba,"1st year",graduate,yes,yes
+91,20,other,nursing,"1st year",phd,yes,yes
+92,23,female,bca,"4th year","no formal",yes,no
+93,23,other,diploma,"2nd year","high school",no,yes
+94,20,female,nursing,"1st year",phd,yes,yes
+95,24,male,pharmacy,"4th year","high school",yes,no
+96,19,female,b.sc,"4th year","high school",yes,yes
+97,18,other,diploma,"3rd year","high school",yes,no
+98,22,other,b.sc,"1st year",graduate,yes,yes
+99,22,male,pharmacy,"3rd year","no formal",yes,yes
+100,18,other,bca,"4th year","post graduate",yes,no
+101,23,female,b.sc,"4th year",phd,yes,yes
+102,18,male,b.com,"3rd year","high school",yes,no
+103,23,female,pharmacy,"4th year","no formal",yes,no
+104,17,male,bca,"4th year","high school",yes,yes
+105,23,male,b.com,"1st year","post graduate",yes,no
+106,23,other,nursing,"3rd year",graduate,yes,yes
+107,23,other,diploma,"3rd year","post graduate",no,yes
+108,22,female,b.tech,"4th year",phd,yes,yes
+109,20,other,b.com,"3rd year",phd,no,yes
+110,22,other,nursing,"3rd year",graduate,no,no
+111,19,female,ba,"3rd year","post graduate",yes,no
+112,23,male,b.tech,"2nd year",graduate,yes,no
+113,21,female,bca,"2nd year","no formal",yes,no
+114,20,male,pharmacy,"4th year",graduate,no,yes
+115,21,other,bca,"4th year",phd,yes,no
+116,21,female,pharmacy,"3rd year",graduate,no,yes
+117,17,other,b.sc,"2nd year",graduate,yes,no
+118,18,other,diploma,"1st year","post graduate",yes,yes
+119,18,female,bca,"2nd year",phd,no,yes
+120,17,other,pharmacy,"2nd year","no formal",yes,yes
+121,20,other,bba,"4th year","no formal",yes,yes
+122,22,other,nursing,"3rd year",graduate,yes,yes
+123,22,male,b.sc,"2nd year","no formal",yes,yes
+124,20,female,b.tech,"4th year",phd,no,yes
+125,23,other,diploma,"2nd year","post graduate",yes,yes
+126,21,other,b.tech,"4th year","post graduate",yes,yes
+127,17,female,nursing,"3rd year",graduate,no,yes
+128,23,male,b.tech,"2nd year",graduate,yes,yes
+129,21,male,diploma,"4th year","no formal",no,no
+130,22,female,bba,"3rd year","post graduate",no,yes
+131,21,female,bca,"4th year",graduate,yes,yes
+132,21,other,bca,"1st year","high school",yes,no
+133,17,male,ba,"2nd year",graduate,yes,yes
+134,21,female,bba,"2nd year",graduate,yes,yes
+135,23,male,bba,"3rd year",phd,yes,yes
+136,19,other,diploma,"4th year","no formal",yes,yes
+137,21,male,diploma,"1st year","no formal",yes,yes
+138,17,male,bba,"1st year","no formal",yes,no
+139,19,male,ba,"3rd year","post graduate",yes,yes
+140,20,male,b.tech,"2nd year","no formal",yes,yes
+141,24,female,nursing,"3rd year","post graduate",yes,no
+142,18,female,b.com,"1st year","post graduate",yes,yes
+143,19,female,ba,"3rd year","post graduate",yes,no
+144,20,other,pharmacy,"1st year",graduate,no,yes
+145,24,female,nursing,"4th year",graduate,yes,no
+146,23,male,ba,"1st year",phd,no,no
+147,17,female,bba,"1st year",phd,yes,no
+148,18,other,b.com,"1st year","no formal",no,yes
+149,23,female,bca,"1st year","high school",yes,yes
+150,17,male,b.sc,"2nd year","high school",yes,yes
+151,23,other,pharmacy,"3rd year",graduate,yes,no
+152,19,other,pharmacy,"4th year","post graduate",yes,yes
+153,24,male,b.com,"4th year","high school",no,yes
+154,19,female,b.com,"1st year","no formal",yes,yes
+155,20,female,bba,"2nd year","high school",yes,yes
+156,22,male,bca,"4th year",graduate,yes,no
+157,18,male,bca,"1st year","post graduate",yes,yes
+158,21,other,b.tech,"3rd year","no formal",no,no
+159,21,female,diploma,"2nd year","post graduate",yes,yes
+160,23,other,b.tech,"1st year","no formal",yes,no
+161,24,female,ba,"1st year","high school",yes,yes
+162,22,female,diploma,"2nd year",graduate,no,yes
+163,20,other,nursing,"1st year","no formal",yes,no
+164,20,male,bca,"1st year",graduate,yes,yes
+165,20,female,b.sc,"3rd year","no formal",yes,yes
+166,23,male,diploma,"4th year","high school",yes,no
+167,19,male,b.tech,"3rd year",graduate,yes,yes
+168,18,other,b.com,"3rd year","high school",yes,no
+169,19,male,b.sc,"1st year",graduate,yes,yes
+170,17,female,pharmacy,"2nd year","high school",yes,yes
+171,17,female,ba,"3rd year",graduate,yes,no
+172,17,other,bca,"1st year","no formal",yes,yes
+173,23,female,nursing,"3rd year","no formal",yes,no
+174,22,other,pharmacy,"1st year",phd,no,no
+175,22,other,pharmacy,"2nd year","high school",yes,yes
+176,20,other,b.sc,"3rd year","post graduate",yes,no
+177,22,other,ba,"4th year","no formal",yes,yes
+178,18,male,ba,"1st year","no formal",no,no
+179,24,male,nursing,"3rd year","post graduate",no,yes
+180,21,female,ba,"3rd year","high school",yes,yes
+181,24,female,b.com,"1st year","high school",yes,yes
+182,18,other,diploma,"3rd year","no formal",yes,no
+183,20,other,bba,"1st year","high school",yes,yes
+184,22,male,diploma,"3rd year","high school",yes,yes
+185,20,male,ba,"1st year","post graduate",yes,yes
+186,20,male,bba,"1st year",phd,yes,yes
+187,18,female,b.tech,"1st year","no formal",yes,yes
+188,20,female,b.tech,"2nd year","no formal",yes,yes
+189,18,male,b.tech,"1st year","post graduate",yes,yes
+190,19,other,b.sc,"2nd year",phd,yes,yes
+191,22,male,ba,"4th year","high school",no,yes
+192,22,female,b.tech,"4th year",phd,yes,no
+193,21,other,b.sc,"4th year","no formal",yes,yes
+194,19,male,nursing,"2nd year","post graduate",no,yes
+195,24,other,nursing,"1st year",phd,yes,no
+196,17,other,b.com,"2nd year",graduate,yes,no
+197,19,other,pharmacy,"1st year",graduate,yes,yes
+198,17,male,b.sc,"1st year","high school",yes,no
+199,19,female,b.tech,"2nd year","post graduate",yes,yes
+200,24,male,ba,"3rd year",phd,yes,yes
+201,19,female,b.com,"4th year",phd,yes,no
+202,24,other,b.tech,"3rd year",phd,no,yes
+203,20,other,nursing,"2nd year","no formal",yes,no
+204,22,other,pharmacy,"3rd year",graduate,yes,no
+205,20,female,b.com,"4th year",graduate,yes,yes
+206,19,other,b.com,"3rd year","no formal",yes,yes
+207,23,other,diploma,"4th year",phd,yes,no
+208,24,other,pharmacy,"4th year","no formal",yes,no
+209,19,other,b.com,"3rd year",graduate,yes,no
+210,23,female,diploma,"4th year","no formal",no,yes
+211,19,male,b.tech,"2nd year","post graduate",yes,yes
+212,22,male,bca,"2nd year","no formal",no,yes
+213,23,other,pharmacy,"1st year",graduate,yes,yes
+214,20,male,bba,"1st year",graduate,yes,no
+215,22,male,bca,"3rd year","no formal",yes,yes
+216,19,other,diploma,"4th year",phd,yes,no
+217,17,female,bca,"1st year","no formal",yes,yes
+218,17,other,diploma,"3rd year","post graduate",yes,no
+219,20,male,nursing,"1st year","no formal",yes,yes
+220,24,female,b.tech,"4th year","post graduate",no,yes
+221,18,female,nursing,"3rd year","high school",yes,yes
+222,20,female,pharmacy,"2nd year","post graduate",yes,no
+223,22,female,pharmacy,"2nd year",graduate,yes,no
+224,18,male,ba,"4th year","post graduate",yes,yes
+225,22,other,bca,"2nd year",phd,yes,no
+226,19,male,ba,"1st year",graduate,yes,yes
+227,23,female,nursing,"3rd year","post graduate",yes,yes
+228,21,other,ba,"3rd year",phd,yes,no
+229,21,female,b.com,"3rd year","high school",yes,yes
+230,18,male,diploma,"2nd year","high school",yes,yes
+231,20,male,b.tech,"2nd year","post graduate",yes,yes
+232,23,female,ba,"1st year",phd,yes,no
+233,17,female,b.sc,"4th year","no formal",no,no
+234,23,other,ba,"1st year","no formal",yes,no
+235,20,male,bba,"2nd year","no formal",yes,no
+236,22,female,b.tech,"1st year","post graduate",yes,no
+237,22,male,nursing,"1st year",graduate,no,yes
+238,20,female,ba,"1st year",graduate,yes,no
+239,19,female,ba,"2nd year","high school",yes,yes
+240,22,male,b.sc,"4th year",graduate,yes,yes
+241,18,male,pharmacy,"1st year","post graduate",yes,no
+242,21,male,nursing,"4th year",graduate,no,yes
+243,17,female,bba,"3rd year","high school",no,no
+244,22,male,ba,"4th year","no formal",yes,no
+245,22,male,bba,"3rd year","high school",yes,no
+246,17,male,pharmacy,"4th year","post graduate",no,yes
+247,23,male,b.sc,"3rd year","no formal",yes,yes
+248,20,male,diploma,"4th year","high school",no,no
+249,23,female,pharmacy,"1st year","high school",yes,no
+250,17,male,diploma,"4th year",graduate,yes,yes
+251,18,male,nursing,"1st year",phd,no,yes
+252,20,male,pharmacy,"1st year",phd,yes,no
+253,18,male,b.tech,"3rd year","high school",yes,no
+254,19,male,b.com,"2nd year",graduate,yes,yes
+255,22,male,b.sc,"1st year",phd,yes,no
+256,18,other,bca,"4th year",phd,yes,no
+257,22,other,ba,"3rd year","post graduate",yes,yes
+258,17,male,b.tech,"2nd year","no formal",yes,yes
+259,18,male,bca,"2nd year","high school",no,no
+260,21,female,b.tech,"3rd year","high school",no,no
+261,23,other,ba,"2nd year","post graduate",yes,no
+262,18,other,ba,"3rd year","high school",no,no
+263,19,other,pharmacy,"1st year","no formal",yes,yes
+264,24,male,diploma,"2nd year",phd,yes,no
+265,24,female,bca,"1st year","no formal",yes,no
+266,21,female,nursing,"2nd year","post graduate",no,yes
+267,20,female,b.sc,"2nd year",phd,no,yes
+268,19,other,b.com,"3rd year",phd,no,no
+269,21,male,diploma,"4th year",graduate,yes,no
+270,21,female,diploma,"3rd year",graduate,yes,yes
+271,19,male,b.tech,"4th year","post graduate",yes,yes
+272,17,male,b.com,"2nd year","high school",yes,yes
+273,18,male,b.com,"2nd year",graduate,no,yes
+274,24,other,b.tech,"3rd year","high school",yes,no
+275,20,female,bca,"1st year","high school",yes,no
+276,20,other,b.tech,"2nd year",graduate,yes,no
+277,20,other,nursing,"4th year",graduate,yes,yes
+278,23,female,bca,"2nd year","no formal",yes,yes
+279,17,other,diploma,"4th year","no formal",yes,no
+280,17,male,bba,"3rd year","post graduate",no,yes
+281,19,other,pharmacy,"1st year",graduate,yes,yes
+282,20,male,b.com,"2nd year",phd,yes,yes
+283,22,female,bca,"2nd year","no formal",yes,no
+284,20,other,b.tech,"4th year","high school",yes,no
+285,20,other,nursing,"2nd year","high school",yes,no
+286,24,male,bca,"2nd year","post graduate",no,no
+287,18,other,b.sc,"3rd year",graduate,yes,yes
+288,21,male,nursing,"4th year",graduate,yes,no
+289,21,other,pharmacy,"3rd year",phd,yes,yes
+290,20,female,b.tech,"4th year","no formal",yes,no
+291,23,male,nursing,"1st year",phd,yes,yes
+292,19,other,diploma,"4th year","high school",yes,yes
+293,24,other,ba,"1st year","no formal",no,no
+294,19,male,bca,"4th year",graduate,yes,yes
+295,21,male,nursing,"3rd year","high school",yes,yes
+296,21,male,bba,"3rd year","post graduate",no,no
+297,23,female,bca,"1st year","post graduate",yes,yes
+298,20,female,b.tech,"3rd year",graduate,no,no
+299,19,other,pharmacy,"1st year","post graduate",yes,yes
+300,17,other,pharmacy,"3rd year","no formal",yes,yes
+301,19,male,b.sc,"2nd year","high school",yes,yes
+302,23,female,bba,"1st year","no formal",yes,no
+303,17,other,b.com,"2nd year","post graduate",yes,no
+304,24,other,ba,"1st year","post graduate",yes,yes
+305,21,male,b.com,"1st year","post graduate",yes,yes
+306,18,male,nursing,"1st year","high school",yes,no
+307,19,male,diploma,"2nd year",phd,yes,no
+308,21,female,nursing,"3rd year","post graduate",yes,yes
+309,19,female,nursing,"3rd year",graduate,yes,no
+310,17,female,diploma,"1st year","high school",no,no
+311,22,male,b.sc,"2nd year",phd,no,no
+312,22,female,nursing,"3rd year","post graduate",yes,yes
+313,17,male,nursing,"1st year",phd,yes,yes
+314,19,female,b.sc,"1st year","high school",yes,yes
+315,18,male,b.tech,"1st year",graduate,yes,no
+316,22,other,diploma,"1st year","no formal",yes,yes
+317,22,female,ba,"1st year",graduate,no,yes
+318,22,male,b.com,"3rd year",graduate,no,yes
+319,24,other,ba,"4th year",phd,yes,no
+320,23,other,nursing,"4th year","post graduate",yes,yes
+321,19,male,ba,"3rd year",phd,yes,yes
+322,17,male,ba,"2nd year",phd,yes,yes
+323,21,male,ba,"4th year","no formal",yes,yes
+324,24,female,b.tech,"4th year",phd,yes,yes
+325,24,female,b.tech,"2nd year","no formal",yes,no
+326,18,female,ba,"1st year",graduate,yes,yes
+327,18,female,b.tech,"2nd year",phd,yes,no
+328,17,female,diploma,"2nd year","post graduate",yes,yes
+329,18,male,ba,"3rd year",phd,yes,yes
+330,21,male,bba,"1st year",graduate,yes,no
+331,21,other,ba,"3rd year","post graduate",yes,yes
+332,19,other,diploma,"2nd year",graduate,yes,yes
+333,19,other,ba,"2nd year",phd,yes,yes
+334,23,other,b.tech,"1st year","no formal",yes,yes
+335,20,female,bba,"3rd year","high school",yes,yes
+336,23,other,b.sc,"1st year","post graduate",no,no
+337,24,other,bca,"4th year",graduate,yes,yes
+338,19,other,bca,"3rd year",phd,no,no
+339,18,male,bba,"4th year",graduate,no,yes
+340,24,male,ba,"3rd year","no formal",yes,yes
+341,22,female,bca,"4th year","post graduate",no,yes
+342,19,female,diploma,"1st year","high school",yes,yes
+343,21,other,nursing,"1st year",graduate,yes,no
+344,21,male,pharmacy,"4th year","no formal",yes,yes
+345,24,other,b.tech,"3rd year",phd,yes,no
+346,19,other,bca,"3rd year",graduate,yes,yes
+347,24,other,b.tech,"2nd year",phd,yes,yes
+348,24,male,ba,"2nd year",graduate,yes,no
+349,18,male,diploma,"3rd year",phd,yes,yes
+350,18,male,bba,"2nd year","high school",yes,yes
+351,21,other,nursing,"1st year","no formal",yes,no
+352,17,other,pharmacy,"2nd year",graduate,yes,yes
+353,19,female,pharmacy,"2nd year","no formal",yes,no
+354,20,male,diploma,"4th year",phd,yes,no
+355,24,female,diploma,"2nd year",phd,no,yes
+356,24,other,nursing,"2nd year","high school",yes,yes
+357,18,female,b.com,"3rd year","no formal",yes,no
+358,24,male,b.com,"1st year","post graduate",yes,no
+359,17,female,ba,"3rd year","post graduate",yes,no
+360,22,female,diploma,"1st year","post graduate",yes,no
+361,23,female,ba,"4th year",graduate,yes,no
+362,24,other,b.sc,"2nd year",graduate,yes,yes
+363,18,male,nursing,"2nd year","high school",yes,yes
+364,24,female,diploma,"2nd year","high school",yes,yes
+365,17,other,bca,"2nd year","post graduate",yes,yes
+366,21,male,nursing,"3rd year",phd,yes,yes
+367,20,male,nursing,"3rd year","high school",yes,yes
+368,19,male,pharmacy,"4th year","high school",yes,yes
+369,17,female,b.com,"4th year",graduate,yes,yes
+370,23,male,b.sc,"2nd year","no formal",yes,yes
+371,19,other,ba,"3rd year","post graduate",yes,yes
+372,22,male,nursing,"2nd year","no formal",yes,no
+373,20,other,pharmacy,"4th year","post graduate",yes,no
+374,19,female,b.tech,"1st year",phd,no,no
+375,24,other,nursing,"4th year",phd,yes,yes
+376,17,female,bba,"2nd year","no formal",yes,yes
+377,22,female,nursing,"3rd year",graduate,yes,no
+378,22,male,diploma,"3rd year",graduate,yes,no
+379,20,female,b.tech,"2nd year",graduate,yes,yes
+380,19,male,bba,"4th year","post graduate",yes,no
+381,17,male,b.tech,"2nd year",phd,yes,yes
+382,24,other,ba,"3rd year",graduate,yes,no
+383,24,other,diploma,"4th year",graduate,no,yes
+384,18,male,diploma,"1st year","post graduate",no,yes
+385,17,female,diploma,"4th year",graduate,no,yes
+386,17,male,bca,"4th year","high school",no,yes
+387,17,male,b.tech,"2nd year",phd,yes,yes
+388,23,female,bca,"4th year","post graduate",yes,yes
+389,24,other,bba,"1st year",graduate,yes,no
+390,18,male,bba,"1st year","no formal",yes,yes
+391,22,female,b.sc,"4th year","high school",yes,no
+392,18,other,diploma,"4th year","high school",yes,no
+393,19,female,bca,"1st year","post graduate",no,yes
+394,21,male,ba,"3rd year","no formal",yes,yes
+395,22,female,b.tech,"1st year","high school",yes,no
+396,23,other,b.tech,"4th year",graduate,yes,yes
+397,17,other,ba,"4th year","post graduate",yes,no
+398,18,female,bba,"2nd year","no formal",yes,no
+399,19,male,pharmacy,"1st year","post graduate",yes,yes
+400,19,other,diploma,"1st year",graduate,yes,no
+401,24,other,bba,"3rd year","post graduate",no,yes
+402,23,female,b.com,"4th year","no formal",yes,yes
+403,19,other,b.sc,"3rd year",graduate,yes,yes
+404,24,other,b.sc,"2nd year",graduate,yes,yes
+405,20,male,b.tech,"3rd year","high school",no,no
+406,21,female,pharmacy,"4th year","no formal",yes,yes
+407,20,female,b.tech,"4th year","high school",yes,yes
+408,18,female,nursing,"1st year",graduate,yes,yes
+409,24,female,bca,"1st year","no formal",no,yes
+410,17,other,bca,"2nd year",phd,yes,yes
+411,18,male,pharmacy,"2nd year","post graduate",no,yes
+412,18,female,nursing,"3rd year","high school",yes,yes
+413,19,male,b.sc,"4th year","no formal",yes,yes
+414,18,female,pharmacy,"3rd year","post graduate",yes,yes
+415,17,female,b.sc,"4th year","no formal",yes,no
+416,22,male,bca,"2nd year",graduate,no,yes
+417,24,other,bca,"3rd year","high school",yes,yes
+418,17,male,b.com,"3rd year","high school",yes,yes
+419,19,male,bca,"2nd year","post graduate",yes,yes
+420,21,female,bca,"3rd year","high school",yes,yes
+421,24,other,pharmacy,"3rd year","high school",yes,no
+422,22,male,pharmacy,"3rd year","high school",yes,yes
+423,23,female,ba,"2nd year","no formal",no,yes
+424,21,female,diploma,"2nd year","post graduate",yes,yes
+425,20,other,nursing,"4th year",graduate,yes,no
+426,18,male,b.tech,"3rd year","high school",yes,yes
+427,23,male,diploma,"1st year","high school",yes,no
+428,23,female,pharmacy,"3rd year",phd,yes,yes
+429,17,male,b.sc,"3rd year",graduate,yes,yes
+430,22,other,diploma,"4th year","post graduate",no,yes
+431,17,male,b.tech,"4th year",phd,yes,yes
+432,22,female,ba,"3rd year",graduate,yes,no
+433,23,male,nursing,"1st year","high school",yes,yes
+434,18,other,pharmacy,"2nd year",phd,yes,yes
+435,20,female,diploma,"1st year",graduate,no,yes
+436,17,male,diploma,"1st year","high school",no,yes
+437,21,male,b.com,"4th year",phd,no,yes
+438,24,male,nursing,"1st year","post graduate",yes,no
+439,17,male,bca,"1st year",graduate,no,yes
+440,20,other,pharmacy,"2nd year","high school",yes,no
+441,24,female,bca,"2nd year","post graduate",yes,no
+442,19,other,b.tech,"3rd year",graduate,yes,yes
+443,18,male,bba,"2nd year","high school",yes,no
+444,20,other,diploma,"4th year","no formal",yes,no
+445,21,female,nursing,"1st year",phd,yes,yes
+446,22,female,ba,"4th year",phd,yes,no
+447,19,other,b.sc,"4th year",phd,yes,yes
+448,24,other,nursing,"3rd year","high school",yes,yes
+449,21,other,nursing,"1st year","post graduate",yes,yes
+450,19,other,nursing,"3rd year",graduate,yes,no
+451,24,female,diploma,"3rd year","high school",yes,yes
+452,24,other,nursing,"3rd year",phd,yes,no
+453,20,other,ba,"2nd year","high school",no,no
+454,17,other,nursing,"2nd year","no formal",yes,yes
+455,21,female,bba,"2nd year","no formal",yes,no
+456,21,male,nursing,"3rd year",phd,yes,no
+457,18,female,b.sc,"2nd year","no formal",yes,yes
+458,22,male,b.com,"2nd year",graduate,yes,no
+459,23,male,b.sc,"4th year",graduate,no,yes
+460,17,female,ba,"2nd year","post graduate",no,no
+461,22,female,nursing,"3rd year",phd,yes,yes
+462,18,female,b.sc,"4th year",graduate,yes,no
+463,22,other,diploma,"4th year","post graduate",yes,no
+464,20,other,nursing,"3rd year",phd,yes,no
+465,17,female,diploma,"2nd year",phd,no,yes
+466,24,female,bca,"1st year",phd,yes,yes
+467,18,other,b.sc,"4th year","post graduate",no,no
+468,21,male,bca,"3rd year","high school",yes,yes
+469,18,other,b.com,"3rd year",graduate,yes,no
+470,24,other,b.com,"4th year","post graduate",yes,yes
+471,22,other,nursing,"2nd year","high school",yes,yes
+472,23,male,bca,"1st year",phd,yes,yes
+473,20,female,pharmacy,"3rd year",graduate,yes,yes
+474,20,other,bba,"4th year","post graduate",yes,no
+475,22,male,ba,"1st year",graduate,yes,no
+476,23,male,pharmacy,"4th year",phd,yes,no
+477,23,female,bca,"3rd year","post graduate",yes,no
+478,17,female,nursing,"3rd year","post graduate",yes,yes
+479,22,other,b.tech,"4th year","post graduate",no,yes
+480,17,female,bba,"2nd year","high school",yes,yes
+481,19,other,nursing,"3rd year","high school",yes,yes
+482,23,male,nursing,"1st year",phd,yes,yes
+483,19,female,diploma,"3rd year",graduate,yes,yes
+484,23,male,b.sc,"1st year","post graduate",yes,yes
+485,20,male,bba,"1st year",graduate,yes,yes
+486,18,male,b.tech,"2nd year","no formal",yes,no
+487,19,other,nursing,"2nd year",graduate,yes,yes
+488,21,female,bca,"4th year","no formal",no,yes
+489,23,male,b.sc,"4th year","no formal",yes,no
+490,21,male,diploma,"4th year","high school",no,yes
+491,24,female,diploma,"3rd year","high school",no,no
+492,23,other,b.tech,"1st year","post graduate",no,no
+493,23,other,b.tech,"3rd year","high school",yes,yes
+494,21,male,b.sc,"2nd year","post graduate",yes,yes
+495,19,other,b.tech,"3rd year","high school",yes,yes
+496,20,female,bba,"3rd year",phd,yes,no
+497,17,other,nursing,"4th year",graduate,yes,yes
+498,19,male,b.tech,"2nd year","no formal",yes,yes
+499,24,female,bca,"4th year","no formal",no,yes
+500,20,other,ba,"3rd year","no formal",yes,yes
+501,17,male,nursing,"3rd year",graduate,yes,yes
+502,22,other,bba,"4th year","high school",yes,yes
+503,24,male,diploma,"4th year","no formal",yes,yes
+504,23,other,pharmacy,"2nd year","post graduate",no,yes
+505,19,other,b.sc,"1st year",phd,yes,no
+506,20,other,b.com,"1st year",phd,yes,no
+507,21,other,b.com,"2nd year","no formal",yes,yes
+508,18,male,b.sc,"3rd year",phd,yes,yes
+509,19,female,bca,"4th year",graduate,yes,no
+510,18,other,b.tech,"1st year","high school",yes,yes
+511,24,male,ba,"2nd year","no formal",yes,yes
+512,22,male,b.sc,"4th year","post graduate",no,yes
+513,23,male,bca,"4th year","high school",no,no
+514,23,other,diploma,"4th year","post graduate",yes,no
+515,24,male,bba,"4th year",graduate,yes,no
+516,17,female,bba,"1st year",phd,yes,yes
+517,24,female,bba,"3rd year","post graduate",yes,yes
+518,17,female,b.sc,"3rd year","post graduate",yes,yes
+519,20,other,ba,"2nd year",graduate,yes,yes
+520,21,other,pharmacy,"4th year",graduate,yes,yes
+521,19,female,b.tech,"4th year","no formal",yes,no
+522,18,other,nursing,"2nd year","post graduate",yes,yes
+523,18,male,b.sc,"3rd year","post graduate",yes,yes
+524,23,other,b.sc,"2nd year","high school",yes,yes
+525,19,male,b.com,"3rd year","no formal",yes,no
+526,19,male,b.com,"4th year","post graduate",yes,yes
+527,24,male,b.com,"4th year","post graduate",no,yes
+528,18,male,nursing,"1st year","post graduate",yes,yes
+529,24,other,pharmacy,"4th year","no formal",no,yes
+530,24,male,diploma,"3rd year",phd,yes,yes
+531,21,other,b.sc,"3rd year","high school",yes,yes
+532,18,female,pharmacy,"1st year","high school",no,yes
+533,18,male,nursing,"2nd year",graduate,yes,yes
+534,19,female,b.tech,"2nd year",phd,yes,yes
+535,21,male,ba,"1st year",phd,yes,yes
+536,18,male,diploma,"4th year","no formal",no,no
+537,20,female,b.tech,"1st year",phd,yes,no
+538,17,other,b.tech,"3rd year","post graduate",yes,yes
+539,21,female,bca,"3rd year",phd,no,no
+540,17,male,ba,"3rd year",phd,yes,yes
+541,22,other,ba,"4th year",graduate,yes,yes
+542,17,other,diploma,"1st year","no formal",yes,yes
+543,18,male,bba,"1st year","no formal",yes,yes
+544,18,other,diploma,"4th year","post graduate",yes,yes
+545,23,other,b.sc,"1st year","no formal",yes,yes
+546,17,female,b.tech,"2nd year","post graduate",yes,no
+547,20,male,b.com,"3rd year","no formal",no,yes
+548,21,female,b.sc,"3rd year",phd,yes,no
+549,21,female,b.com,"1st year","high school",yes,yes
+550,22,male,nursing,"1st year","no formal",yes,yes
+551,23,male,b.sc,"4th year","high school",yes,yes
+552,20,male,b.sc,"3rd year",phd,yes,yes
+553,23,male,b.sc,"4th year",graduate,yes,no
+554,19,other,b.com,"3rd year",phd,yes,yes
+555,24,male,b.sc,"3rd year","high school",yes,no
+556,21,female,b.sc,"2nd year","post graduate",yes,no
+557,22,female,bca,"1st year","no formal",yes,yes
+558,24,male,b.sc,"3rd year",graduate,yes,no
+559,23,other,b.sc,"3rd year","high school",yes,yes
+560,23,other,nursing,"2nd year","post graduate",yes,no
+561,21,female,b.tech,"4th year","post graduate",yes,yes
+562,17,other,b.tech,"3rd year","no formal",yes,yes
+563,20,male,b.tech,"3rd year","post graduate",yes,no
+564,18,other,bba,"3rd year","post graduate",yes,no
+565,24,other,diploma,"1st year","high school",yes,no
+566,18,female,diploma,"4th year","no formal",yes,yes
+567,18,other,diploma,"1st year",graduate,yes,yes
+568,18,other,b.tech,"1st year","high school",yes,no
+569,22,female,ba,"4th year","post graduate",yes,yes
+570,21,male,bca,"1st year","no formal",yes,no
+571,24,male,diploma,"3rd year","high school",yes,no
+572,20,male,ba,"1st year","post graduate",yes,no
+573,19,male,nursing,"3rd year",phd,yes,no
+574,17,other,nursing,"1st year",graduate,yes,yes
+575,17,male,diploma,"2nd year","no formal",no,yes
+576,19,other,nursing,"3rd year","post graduate",yes,no
+577,24,male,pharmacy,"2nd year","no formal",yes,no
+578,21,female,nursing,"1st year","no formal",yes,yes
+579,24,female,bca,"1st year","post graduate",yes,no
+580,17,male,ba,"1st year","high school",yes,yes
+581,17,male,ba,"1st year","no formal",yes,yes
+582,23,male,nursing,"2nd year",graduate,yes,yes
+583,17,male,b.com,"1st year","high school",yes,yes
+584,17,other,bca,"3rd year","post graduate",no,yes
+585,20,female,bba,"4th year",phd,yes,yes
+586,24,other,ba,"3rd year","no formal",yes,no
+587,22,other,bba,"2nd year","post graduate",yes,yes
+588,17,female,b.tech,"2nd year","post graduate",yes,yes
+589,23,other,diploma,"4th year",phd,yes,yes
+590,23,male,b.tech,"4th year","high school",yes,yes
+591,23,female,b.tech,"3rd year","no formal",yes,yes
+592,24,female,b.com,"1st year",phd,yes,no
+593,18,female,bba,"4th year","no formal",yes,yes
+594,24,other,b.com,"3rd year",graduate,yes,no
+595,19,other,nursing,"1st year","post graduate",yes,yes
+596,23,female,pharmacy,"2nd year","no formal",yes,yes
+597,21,male,ba,"3rd year","high school",yes,yes
+598,23,female,pharmacy,"4th year","no formal",yes,yes
+599,22,other,b.tech,"4th year",phd,no,yes
+600,22,other,b.sc,"1st year","high school",yes,no
+601,21,other,ba,"3rd year","post graduate",no,yes
+602,23,male,pharmacy,"4th year","high school",yes,yes
+603,22,male,bba,"4th year","post graduate",no,yes
+604,18,female,diploma,"3rd year","post graduate",yes,no
+605,23,female,bca,"4th year","no formal",yes,no
+606,21,female,bba,"3rd year","post graduate",yes,yes
+607,19,other,pharmacy,"3rd year","post graduate",yes,yes
+608,21,female,pharmacy,"3rd year","no formal",yes,no
+609,24,female,bba,"4th year","high school",yes,no
+610,23,other,diploma,"2nd year",phd,yes,no
+611,23,female,bca,"4th year",graduate,yes,no
+612,20,female,bca,"1st year","no formal",yes,no
+613,23,male,b.tech,"2nd year","post graduate",yes,yes
+614,20,female,b.sc,"4th year","post graduate",yes,yes
+615,22,female,pharmacy,"1st year",graduate,yes,no
+616,22,male,b.com,"4th year","no formal",yes,yes
+617,18,male,bca,"3rd year","no formal",yes,no
+618,19,other,pharmacy,"1st year","high school",yes,no
+619,17,male,bca,"1st year",graduate,yes,no
+620,18,male,b.sc,"1st year","post graduate",yes,no
+621,20,male,nursing,"2nd year","post graduate",no,no
+622,20,male,b.tech,"2nd year","high school",yes,yes
+623,18,female,diploma,"4th year","post graduate",no,yes
+624,20,female,b.com,"4th year","no formal",yes,yes
+625,21,female,bca,"1st year","no formal",no,yes
+626,18,female,bba,"3rd year","post graduate",yes,yes
+627,19,female,bca,"4th year",phd,yes,yes
+628,19,other,ba,"3rd year","post graduate",yes,yes
+629,21,male,bba,"1st year",graduate,yes,no
+630,19,other,pharmacy,"1st year",phd,yes,yes
+631,22,male,nursing,"3rd year","high school",yes,yes
+632,19,other,ba,"4th year","post graduate",yes,no
+633,20,female,pharmacy,"1st year","post graduate",yes,no
+634,20,female,pharmacy,"1st year","no formal",yes,yes
+635,18,male,bca,"1st year",phd,yes,yes
+636,22,female,bca,"2nd year","post graduate",yes,yes
+637,18,female,b.tech,"4th year","high school",yes,no
+638,19,other,bba,"4th year",phd,yes,yes
+639,23,male,b.sc,"2nd year","high school",yes,no
+640,24,female,b.sc,"3rd year","no formal",yes,no
+641,22,other,nursing,"1st year","post graduate",yes,no
+642,24,other,b.com,"3rd year","no formal",no,no
+643,23,other,bca,"3rd year",graduate,no,yes
+644,20,female,nursing,"4th year","post graduate",no,yes
+645,23,other,bca,"4th year","no formal",yes,no
+646,19,male,nursing,"1st year","post graduate",yes,yes
+647,20,other,diploma,"2nd year",graduate,yes,no
+648,21,female,bba,"1st year","high school",yes,no
+649,24,female,pharmacy,"1st year","no formal",yes,yes
+650,23,male,pharmacy,"1st year","post graduate",yes,yes
+651,20,female,ba,"4th year","no formal",no,yes
+652,22,male,nursing,"2nd year","no formal",yes,yes
+653,18,other,b.sc,"3rd year","high school",no,yes
+654,23,male,b.sc,"3rd year",graduate,yes,no
+655,21,female,bba,"4th year",phd,yes,yes
+656,21,male,bca,"3rd year","post graduate",yes,no
+657,23,female,bca,"4th year","post graduate",yes,no
+658,22,female,nursing,"2nd year","no formal",yes,no
+659,17,male,ba,"4th year","post graduate",yes,no
+660,19,other,nursing,"4th year","high school",yes,yes
+661,18,other,pharmacy,"3rd year",graduate,yes,no
+662,22,female,b.tech,"2nd year","post graduate",yes,yes
+663,17,male,bba,"1st year","no formal",yes,yes
+664,18,other,b.com,"1st year","high school",yes,no
+665,21,other,bca,"2nd year","high school",no,yes
+666,22,female,ba,"2nd year",phd,no,no
+667,21,female,b.com,"1st year",phd,no,yes
+668,23,male,b.com,"4th year",phd,yes,yes
+669,24,female,ba,"1st year",graduate,yes,yes
+670,18,male,b.tech,"2nd year","post graduate",yes,yes
+671,24,female,b.tech,"2nd year","post graduate",no,no
+672,21,other,bca,"4th year","post graduate",yes,yes
+673,22,female,pharmacy,"1st year","post graduate",no,yes
+674,17,female,bba,"4th year",phd,yes,yes
+675,21,other,pharmacy,"3rd year","high school",yes,yes
+676,22,other,b.sc,"4th year","post graduate",yes,no
+677,21,male,pharmacy,"4th year","post graduate",yes,yes
+678,17,male,bca,"4th year","post graduate",yes,yes
+679,21,male,diploma,"2nd year",phd,yes,yes
+680,24,other,b.tech,"3rd year","no formal",yes,yes
+681,22,female,bca,"2nd year",phd,yes,yes
+682,18,other,ba,"4th year",phd,yes,no
+683,24,female,pharmacy,"1st year",phd,yes,yes
+684,24,other,nursing,"3rd year","high school",yes,yes
+685,18,other,nursing,"1st year",graduate,yes,no
+686,23,male,pharmacy,"2nd year","no formal",yes,yes
+687,20,other,diploma,"4th year","no formal",yes,no
+688,21,other,b.com,"1st year",graduate,yes,no
+689,20,male,b.com,"4th year",phd,no,no
+690,23,female,nursing,"4th year","high school",no,yes
+691,24,other,bca,"2nd year","post graduate",yes,yes
+692,23,other,pharmacy,"2nd year","no formal",yes,yes
+693,24,female,nursing,"1st year","no formal",yes,yes
+694,24,female,bca,"4th year","post graduate",yes,yes
+695,17,male,b.sc,"3rd year","high school",yes,yes
+696,19,female,pharmacy,"4th year","no formal",no,no
+697,22,female,b.com,"2nd year",phd,no,no
+698,21,female,b.com,"2nd year",phd,no,yes
+699,17,male,b.sc,"3rd year","no formal",yes,yes
+700,17,other,b.tech,"2nd year",phd,yes,yes
+701,21,female,ba,"2nd year","no formal",yes,no
+702,21,male,nursing,"1st year","post graduate",yes,yes
+703,18,female,nursing,"4th year","post graduate",yes,yes
+704,18,female,bba,"2nd year","high school",yes,no
+705,18,male,b.com,"4th year","no formal",no,yes
+706,21,female,ba,"3rd year",graduate,yes,no
+707,17,other,pharmacy,"3rd year",phd,yes,yes
+708,21,other,b.tech,"2nd year","no formal",no,yes
+709,20,male,b.tech,"2nd year",phd,yes,no
+710,20,female,b.tech,"2nd year","post graduate",yes,yes
+711,22,female,nursing,"1st year",phd,no,no
+712,21,other,b.tech,"3rd year","high school",yes,no
+713,22,other,pharmacy,"1st year","post graduate",yes,no
+714,23,female,b.sc,"2nd year",graduate,yes,yes
+715,24,male,bba,"3rd year","post graduate",no,yes
+716,23,female,pharmacy,"1st year","no formal",yes,no
+717,21,male,b.sc,"1st year",graduate,yes,yes
+718,20,other,b.com,"1st year",phd,no,no
+719,18,other,diploma,"4th year",phd,yes,no
+720,21,other,nursing,"4th year","high school",yes,no
+721,18,female,pharmacy,"1st year","no formal",no,no
+722,24,other,b.tech,"2nd year",graduate,yes,no
+723,23,female,diploma,"1st year","high school",yes,no
+724,17,female,b.com,"1st year","high school",no,yes
+725,23,other,bca,"4th year","no formal",yes,yes
+726,17,male,pharmacy,"2nd year",graduate,yes,yes
+727,22,other,pharmacy,"4th year","no formal",yes,yes
+728,17,other,b.sc,"3rd year",phd,yes,yes
+729,20,female,bba,"2nd year","no formal",yes,yes
+730,22,male,b.com,"4th year","no formal",yes,yes
+731,22,other,bca,"1st year",graduate,yes,yes
+732,20,male,nursing,"2nd year","no formal",yes,no
+733,24,other,b.com,"2nd year",graduate,yes,yes
+734,23,other,b.sc,"3rd year","no formal",yes,no
+735,18,female,b.tech,"1st year",phd,no,no
+736,22,female,b.tech,"3rd year",graduate,no,yes
+737,22,male,ba,"4th year","high school",yes,yes
+738,19,female,pharmacy,"4th year","post graduate",yes,no
+739,22,male,b.com,"4th year",graduate,no,no
+740,24,other,ba,"3rd year",phd,no,yes
+741,23,female,diploma,"4th year","post graduate",no,yes
+742,23,male,bca,"3rd year",phd,yes,no
+743,22,other,b.com,"4th year",phd,yes,yes
+744,19,male,b.sc,"1st year","no formal",yes,no
+745,23,female,b.sc,"1st year","post graduate",yes,yes
+746,19,male,b.sc,"2nd year",phd,yes,yes
+747,21,male,b.tech,"3rd year","no formal",yes,no
+748,19,male,bba,"4th year",phd,no,no
+749,19,male,bca,"1st year","post graduate",yes,yes
+750,18,other,diploma,"1st year","post graduate",yes,yes
+751,24,other,pharmacy,"4th year","post graduate",yes,yes
+752,18,other,b.com,"2nd year","high school",yes,no
+753,17,other,bca,"1st year",phd,yes,no
+754,24,female,nursing,"3rd year","post graduate",yes,no
+755,21,female,b.tech,"4th year",graduate,yes,no
+756,20,male,nursing,"4th year","post graduate",yes,yes
+757,22,other,b.tech,"4th year",phd,yes,yes
+758,20,female,bba,"1st year","high school",yes,no
+759,18,female,nursing,"1st year",phd,yes,yes
+760,22,male,bba,"4th year","no formal",yes,yes
+761,18,female,bca,"3rd year","post graduate",no,yes
+762,21,other,bca,"1st year",graduate,yes,no
+763,24,female,bca,"2nd year","post graduate",yes,no
+764,24,female,diploma,"4th year",graduate,yes,yes
+765,19,other,nursing,"4th year",graduate,yes,yes
+766,23,male,b.sc,"4th year","no formal",yes,no
+767,21,other,ba,"2nd year","high school",yes,yes
+768,20,other,nursing,"4th year",phd,no,yes
+769,18,female,ba,"1st year",graduate,yes,no
+770,20,other,bba,"4th year","no formal",no,yes
+771,22,male,diploma,"1st year","no formal",yes,no
+772,24,male,pharmacy,"4th year","high school",no,yes
+773,17,male,b.com,"1st year","post graduate",yes,no
+774,22,female,pharmacy,"4th year","high school",yes,yes
+775,23,other,diploma,"3rd year",graduate,yes,yes
+776,24,female,b.tech,"3rd year","post graduate",yes,yes
+777,20,other,nursing,"3rd year","post graduate",yes,no
+778,17,male,ba,"2nd year","no formal",yes,yes
+779,19,other,b.com,"4th year","high school",yes,yes
+780,23,male,bba,"1st year","post graduate",yes,no
+781,24,female,bca,"3rd year","post graduate",yes,no
+782,22,other,bba,"1st year",graduate,yes,no
+783,17,other,b.tech,"1st year","high school",no,no
+784,17,other,nursing,"3rd year","no formal",yes,yes
+785,20,female,ba,"3rd year","no formal",yes,yes
+786,21,female,b.sc,"1st year","no formal",no,yes
+787,17,female,bca,"3rd year",phd,yes,yes
+788,22,female,bca,"4th year",graduate,yes,no
+789,21,other,b.tech,"3rd year","high school",no,no
+790,17,female,pharmacy,"1st year",graduate,yes,yes
+791,17,female,bca,"1st year",graduate,yes,yes
+792,20,female,pharmacy,"1st year","no formal",yes,yes
+793,22,male,diploma,"3rd year",phd,yes,yes
+794,23,male,b.tech,"1st year",graduate,yes,yes
+795,20,female,b.sc,"2nd year",graduate,yes,no
+796,19,female,pharmacy,"1st year",graduate,no,no
+797,24,female,bca,"2nd year",phd,yes,yes
+798,20,other,b.sc,"1st year",phd,yes,no
+799,19,other,b.tech,"2nd year","no formal",yes,no
+800,20,other,bba,"3rd year","post graduate",yes,no
+801,17,female,bca,"4th year","no formal",no,yes
+802,19,other,b.com,"2nd year","no formal",yes,yes
+803,21,other,b.sc,"2nd year",graduate,yes,yes
+804,24,male,bca,"4th year",graduate,yes,no
+805,22,female,ba,"4th year",graduate,yes,yes
+806,23,female,b.tech,"2nd year","no formal",yes,yes
+807,21,other,b.tech,"2nd year","post graduate",yes,no
+808,17,female,b.com,"3rd year",graduate,no,yes
+809,20,male,bca,"4th year","no formal",yes,yes
+810,24,male,b.com,"3rd year","high school",yes,yes
+811,17,male,b.tech,"3rd year","no formal",yes,yes
+812,24,male,pharmacy,"1st year",phd,yes,yes
+813,22,male,diploma,"2nd year","post graduate",yes,yes
+814,19,other,bca,"1st year",graduate,no,yes
+815,23,female,b.com,"2nd year","no formal",yes,yes
+816,23,other,diploma,"4th year",phd,yes,no
+817,17,other,pharmacy,"1st year","high school",yes,no
+818,17,female,diploma,"3rd year",graduate,yes,yes
+819,22,female,b.com,"2nd year","post graduate",no,no
+820,24,male,ba,"1st year","high school",yes,yes
+821,17,other,pharmacy,"1st year",phd,yes,yes
+822,22,female,b.tech,"3rd year","high school",yes,yes
+823,18,other,b.sc,"4th year","high school",no,no
+824,22,male,b.tech,"2nd year","no formal",yes,no
+825,21,male,bca,"4th year","high school",no,yes
+826,17,male,bba,"1st year","post graduate",yes,yes
+827,22,other,b.sc,"3rd year",graduate,yes,yes
+828,24,female,pharmacy,"1st year",phd,yes,no
+829,23,male,bba,"4th year",phd,yes,yes
+830,17,male,b.com,"4th year","high school",yes,no
+831,18,female,pharmacy,"1st year","post graduate",yes,yes
+832,18,other,diploma,"2nd year",graduate,yes,yes
+833,20,other,b.sc,"3rd year",graduate,yes,no
+834,18,female,nursing,"3rd year","high school",yes,yes
+835,23,other,b.tech,"2nd year","no formal",yes,yes
+836,23,male,pharmacy,"1st year",graduate,yes,yes
+837,23,other,ba,"3rd year","post graduate",yes,yes
+838,18,male,b.com,"1st year",phd,yes,yes
+839,17,female,b.tech,"2nd year",graduate,yes,yes
+840,24,other,pharmacy,"1st year","no formal",yes,yes
+841,19,other,bca,"3rd year",graduate,no,no
+842,22,male,bca,"2nd year","high school",no,no
+843,24,female,nursing,"2nd year",phd,yes,yes
+844,17,male,bba,"4th year","post graduate",yes,yes
+845,17,male,b.com,"2nd year",phd,yes,no
+846,17,female,nursing,"4th year","high school",yes,no
+847,18,female,bba,"4th year",graduate,yes,no
+848,17,male,b.com,"1st year","no formal",yes,no
+849,23,other,nursing,"3rd year","no formal",no,yes
+850,21,female,nursing,"1st year","high school",yes,yes
+851,24,female,b.com,"3rd year","high school",yes,no
+852,23,female,bca,"1st year","post graduate",yes,yes
+853,24,female,pharmacy,"2nd year","high school",yes,yes
+854,18,male,nursing,"4th year",phd,yes,yes
+855,19,female,b.sc,"1st year","post graduate",yes,no
+856,23,other,nursing,"3rd year",phd,yes,yes
+857,18,female,b.tech,"4th year","high school",no,yes
+858,17,female,bca,"4th year",graduate,yes,yes
+859,22,other,bba,"1st year",graduate,no,no
+860,23,female,b.tech,"2nd year","post graduate",yes,no
+861,24,male,diploma,"3rd year",phd,yes,yes
+862,24,male,b.com,"3rd year",graduate,no,yes
+863,17,other,nursing,"1st year",phd,yes,no
+864,23,female,nursing,"3rd year",graduate,yes,no
+865,23,female,bca,"1st year","high school",yes,yes
+866,22,male,bca,"3rd year","no formal",yes,yes
+867,23,male,b.tech,"3rd year","high school",yes,no
+868,23,female,pharmacy,"2nd year","high school",yes,no
+869,20,other,diploma,"1st year","high school",yes,yes
+870,17,male,ba,"1st year",graduate,no,yes
+871,20,female,b.tech,"3rd year","high school",no,no
+872,18,other,bba,"2nd year",phd,no,yes
+873,17,male,pharmacy,"4th year","high school",no,yes
+874,17,male,nursing,"4th year","post graduate",no,no
+875,22,male,b.tech,"2nd year","post graduate",yes,yes
+876,21,other,diploma,"2nd year",phd,yes,no
+877,21,female,b.tech,"4th year","post graduate",yes,yes
+878,22,other,ba,"3rd year","high school",no,yes
+879,21,other,bba,"1st year",graduate,yes,yes
+880,22,female,b.tech,"4th year","no formal",yes,yes
+881,17,male,b.sc,"1st year","high school",yes,yes
+882,23,male,nursing,"3rd year",phd,no,yes
+883,20,female,bca,"1st year","no formal",yes,no
+884,18,female,nursing,"2nd year","high school",yes,no
+885,23,male,bca,"3rd year","no formal",yes,yes
+886,22,other,bba,"1st year",graduate,yes,no
+887,17,male,b.tech,"2nd year","post graduate",yes,yes
+888,18,female,bba,"4th year","no formal",yes,yes
+889,17,other,diploma,"4th year","no formal",yes,yes
+890,19,female,b.sc,"4th year",phd,yes,no
+891,17,other,bba,"4th year","high school",yes,yes
+892,22,male,ba,"4th year","no formal",yes,no
+893,21,other,nursing,"1st year","no formal",yes,no
+894,24,other,b.sc,"1st year",phd,yes,no
+895,22,other,b.tech,"2nd year",phd,no,yes
+896,21,male,b.sc,"4th year","no formal",no,yes
+897,21,male,b.sc,"4th year","high school",yes,yes
+898,17,male,nursing,"2nd year","no formal",yes,yes
+899,17,other,b.com,"1st year",graduate,yes,no
+900,21,male,ba,"3rd year",phd,yes,yes
+901,17,female,b.com,"2nd year","post graduate",yes,no
+902,17,female,nursing,"1st year","high school",yes,yes
+903,18,other,bca,"1st year","post graduate",no,yes
+904,24,other,bba,"1st year","high school",yes,yes
+905,20,male,nursing,"2nd year",phd,yes,yes
+906,22,other,b.tech,"3rd year",graduate,yes,no
+907,20,male,diploma,"1st year",phd,yes,yes
+908,18,male,ba,"2nd year","high school",yes,yes
+909,19,male,ba,"4th year",phd,yes,no
+910,17,female,b.sc,"4th year","high school",yes,yes
+911,23,female,b.tech,"4th year","post graduate",yes,yes
+912,18,other,diploma,"2nd year","no formal",no,yes
+913,20,other,nursing,"1st year","high school",yes,yes
+914,24,female,pharmacy,"4th year",graduate,yes,yes
+915,21,female,b.com,"2nd year",graduate,no,no
+916,20,male,diploma,"2nd year","no formal",yes,yes
+917,21,other,b.sc,"2nd year","no formal",yes,no
+918,23,female,nursing,"1st year",phd,no,no
+919,19,other,bca,"3rd year","high school",yes,yes
+920,22,female,nursing,"1st year","post graduate",yes,yes
+921,23,other,b.tech,"1st year","no formal",yes,yes
+922,21,other,diploma,"4th year","high school",yes,yes
+923,20,other,bba,"3rd year","no formal",no,yes
+924,18,female,bca,"4th year",graduate,yes,yes
+925,18,male,bba,"3rd year",graduate,yes,yes
+926,24,male,diploma,"1st year",graduate,yes,yes
+927,21,female,bca,"2nd year","post graduate",yes,yes
+928,19,other,ba,"2nd year","post graduate",yes,no
+929,20,other,ba,"2nd year","high school",yes,yes
+930,21,male,b.tech,"2nd year",graduate,yes,no
+931,21,female,diploma,"2nd year","no formal",yes,yes
+932,22,other,diploma,"3rd year","post graduate",yes,no
+933,19,male,bca,"4th year","high school",yes,yes
+934,22,female,diploma,"3rd year","no formal",yes,no
+935,20,other,b.com,"4th year",phd,no,yes
+936,24,male,b.com,"4th year",graduate,no,no
+937,18,male,pharmacy,"3rd year","no formal",yes,no
+938,18,female,pharmacy,"2nd year","no formal",no,no
+939,20,other,nursing,"3rd year","high school",yes,yes
+940,21,male,b.tech,"1st year",phd,yes,no
+941,22,other,bba,"4th year","no formal",yes,no
+942,20,male,diploma,"1st year",graduate,yes,no
+943,24,female,b.tech,"1st year","high school",yes,no
+944,20,female,pharmacy,"4th year","post graduate",yes,no
+945,18,male,nursing,"1st year",graduate,yes,no
+946,17,other,b.com,"3rd year",graduate,no,no
+947,24,other,bba,"3rd year",phd,yes,yes
+948,18,other,pharmacy,"1st year","no formal",yes,no
+949,24,male,nursing,"2nd year","high school",yes,no
+950,19,female,nursing,"4th year","no formal",yes,yes
+951,17,other,pharmacy,"3rd year","high school",yes,no
+952,19,male,diploma,"3rd year","high school",yes,yes
+953,21,female,pharmacy,"3rd year",phd,yes,yes
+954,20,female,pharmacy,"2nd year","post graduate",yes,yes
+955,23,female,b.tech,"3rd year","high school",yes,no
+956,21,female,bca,"1st year","post graduate",yes,yes
+957,20,other,ba,"1st year",phd,no,yes
+958,22,male,bba,"4th year","no formal",no,no
+959,24,other,b.sc,"1st year",graduate,yes,no
+960,20,other,diploma,"3rd year",graduate,yes,no
+961,18,male,nursing,"1st year",phd,no,yes
+962,20,other,ba,"2nd year","high school",yes,no
+963,23,male,diploma,"4th year","post graduate",no,no
+964,18,male,b.com,"2nd year",graduate,yes,yes
+965,24,female,diploma,"4th year","high school",yes,yes
+966,21,other,b.tech,"2nd year","high school",yes,yes
+967,21,other,nursing,"3rd year",phd,no,yes
+968,19,female,ba,"3rd year",phd,yes,no
+969,24,other,bba,"3rd year","high school",yes,no
+970,17,male,nursing,"2nd year",graduate,yes,yes
+971,19,other,b.tech,"4th year","no formal",yes,no
+972,20,female,pharmacy,"2nd year",graduate,yes,no
+973,20,male,bca,"4th year",phd,yes,no
+974,20,male,pharmacy,"2nd year","post graduate",yes,yes
+975,18,male,bba,"4th year",graduate,yes,yes
+976,18,male,b.sc,"4th year","post graduate",no,no
+977,17,male,bca,"4th year",graduate,no,no
+978,21,other,bca,"2nd year",graduate,yes,yes
+979,19,male,pharmacy,"2nd year","no formal",no,no
+980,21,female,bca,"2nd year","no formal",yes,yes
+981,21,other,ba,"2nd year",graduate,yes,no
+982,22,male,b.sc,"2nd year","no formal",yes,no
+983,21,other,b.com,"2nd year","no formal",yes,no
+984,22,female,bca,"3rd year","high school",no,no
+985,21,male,ba,"4th year",graduate,yes,yes
+986,22,other,ba,"4th year","post graduate",yes,yes
+987,21,female,b.tech,"3rd year",phd,no,yes
+988,19,female,pharmacy,"4th year","post graduate",no,yes
+989,18,other,nursing,"4th year",phd,no,yes
+990,23,other,b.com,"2nd year","high school",yes,yes
+991,19,other,b.sc,"2nd year","post graduate",yes,yes
+992,21,other,nursing,"2nd year","no formal",yes,no
+993,18,male,nursing,"1st year","no formal",yes,yes
+994,20,female,pharmacy,"2nd year","post graduate",no,no
+995,21,male,bba,"2nd year","high school",yes,no
+996,22,other,diploma,"4th year",graduate,no,no
+997,21,other,diploma,"2nd year",phd,yes,no
+998,19,female,b.sc,"3rd year","post graduate",yes,no
+999,24,female,bba,"2nd year","high school",yes,no
+1000,21,other,b.com,"2nd year","post graduate",yes,yes
