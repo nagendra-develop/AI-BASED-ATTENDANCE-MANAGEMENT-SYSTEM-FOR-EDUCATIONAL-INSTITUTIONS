@@ -1,96 +1,104 @@
-##Attendance Management Dashboard
-📌 Project Overview
+# 📊 Attendance Management Dashboard
 
-This project is an Attendance Management Analytics System built using SQL and Power BI.
-The system analyzes student attendance data and provides role-based dashboards for:
+## 📌 Project Overview
+This project is an **Attendance Management Analytics System** built using **SQL** and **Power BI**.  
+It analyzes student attendance data and provides **role-based dashboards** for:
 
-👩‍🏫 Teachers
-🎓 Students
-🏫 Institution/Admin
+- 👩‍🏫 **Teachers**
+- 🎓 **Students**
+- 🏫 **Institution/Admin**
 
-The project helps monitor attendance performance, identify low-attendance students, and generate institution-level insights.
+The system helps monitor attendance performance, identify low-attendance students, and generate institution-level insights.
 
-🛠️ Tools & Technologies Used
-SQL (MySQL)
-Power BI
-CSV Dataset
-Data Cleaning & Transformation
-Data Visualization
-📂 Project Structure
-Attendance-Management-Dashboard
+---
+
+## 🛠️ Tools & Technologies Used
+- SQL (MySQL)
+- Power BI
+- CSV Dataset
+- Data Cleaning & Transformation
+- Data Visualization
+
+---
+
+## 📂 Project Structure
+Attendance-Management-Dashboard/
 │
-├── datasets
-├── sql_queries
-├── powerbi_dashboard
-├── screenshots
+├── Datasets/
+├── Sql_queries/
+├── PowerBi_Dashboard/
+├── Screenshots/
 └── README.md
-📊 Dashboards Included
-👩‍🏫 Teacher Dashboard
 
+
+---
+
+## 📊 Dashboards Included
+
+### 👩‍🏫 Teacher Dashboard
 Features:
+- Class-wise attendance overview  
+- Low attendance student alerts  
+- Present vs absent analysis  
+- Attendance monitoring  
 
-Class-wise attendance overview
-Low attendance student alerts
-Present vs absent analysis
-Attendance monitoring
-🎓 Student Dashboard
-
+### 🎓 Student Dashboard
 Features:
+- Individual attendance tracking  
+- Attendance percentage  
+- Eligibility status  
+- Attendance behavior insights  
 
-Individual attendance tracking
-Attendance percentage
-Eligibility status
-Attendance behavior insights
-🏫 Admin Dashboard
-
+### 🏫 Admin Dashboard
 Features:
+- Institution-level attendance analysis  
+- Course/year comparison  
+- Overall attendance KPIs  
+- Low-performing course identification  
 
-Institution-level attendance analysis
-Course/year comparison
-Overall attendance KPIs
-Low-performing course identification
-🧠 SQL Analysis Performed
+---
 
-The SQL queries include:
+## 🧠 SQL Analysis Performed
+- Database creation  
+- Table relationships & foreign keys  
+- Data cleaning  
+- Attendance percentage calculation  
+- Low attendance identification  
+- Course-wise analysis  
+- Year-wise analysis  
+- Present vs absent analysis  
+- Attendance trend analysis  
 
-Database creation
-Table relationships & foreign keys
-Data cleaning
-Attendance percentage calculation
-Low attendance identification
-Course-wise analysis
-Year-wise analysis
-Present vs absent analysis
-Attendance trend analysis
-📈 Key Insights
-Identified students below 75% attendance
-Compared attendance across courses and years
-Analyzed attendance behavior based on class type and weather
-Generated institutional attendance insights for admins
-📸 Dashboard Screenshots
-Teacher Dashboard
+---
 
+## 📈 Key Insights
+- Identified students below **75% attendance**  
+- Compared attendance across courses and years  
+- Analyzed attendance behavior based on class type and weather  
+- Generated institutional attendance insights for admins  
 
-![Teacher Dashboard](Attendance_Management_Dashboard/Screenshots/Teacher_Dashboard.png)
+---
 
+## 📸 Dashboard Screenshots
 
-screenshots/teacher_dashboard.png
-Student Dashboard
+### 👩‍🏫 Teacher Dashboard
+![Teacher Dashboard](Screenshots/Teacher_Dashboard.png)
 
+### 🎓 Student Dashboard
 ![Student Dashboard](Screenshots/Student_Dashboard.png)
 
-screenshots/student_dashboard.png
-Admin Dashboard
-
+### 🏫 Admin Dashboard
 ![Admin Dashboard](Screenshots/Admin_Dashboard.png)
 
+---
 
-screenshots/admin_dashboard.png
-🚀 Future Improvements
-Real-time attendance tracking
-Login-based student filtering
-Predictive attendance analytics
-Mobile dashboard integration
+## 🚀 Future Improvements
+- Real-time attendance tracking  
+- Login-based student filtering  
+- Predictive attendance analytics  
+- Mobile dashboard integration  
 
-## Harshita Sahni – Attendance Dashboard & SQL Queries
+---
+
+- **Harshita Sahni** – Attendance Dashboard & SQL Queries  
 
