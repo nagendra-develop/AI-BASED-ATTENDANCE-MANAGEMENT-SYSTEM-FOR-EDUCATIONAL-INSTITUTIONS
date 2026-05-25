@@ -1,20 +1,32 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { attendanceAPI } from '../services/api';
 import { motion } from 'framer-motion';
 import { Download, Filter, ChevronLeft, ChevronRight, Search } from 'lucide-react';
 
 const AttendanceRecords = () => {
   const [activeTab, setActiveTab] = useState('All');
 
-  const records = [
-    { id: 'STD-1042', name: 'Alex Johnson', date: 'Oct 24, 2026', time: '08:42:15 AM', status: 'Present', confidence: '99.8%', course: 'CS-101' },
-    { id: 'STD-2918', name: 'Sarah Miller', date: 'Oct 24, 2026', time: '08:45:22 AM', status: 'Present', confidence: '98.5%', course: 'CS-101' },
-    { id: 'STD-8472', name: 'Priya Sharma', date: 'Oct 24, 2026', time: '08:55:10 AM', status: 'Present', confidence: '99.9%', course: 'CS-101' },
-    { id: 'STD-3391', name: 'Michael Chen', date: 'Oct 24, 2026', time: '09:02:10 AM', status: 'Late', confidence: '99.1%', course: 'CS-101' },
-    { id: 'STD-5510', name: 'Emma Davis', date: 'Oct 24, 2026', time: '09:05:33 AM', status: 'Late', confidence: '97.9%', course: 'CS-101' },
-    { id: 'STD-1102', name: 'James Wilson', date: 'Oct 24, 2026', time: '-', status: 'Absent', confidence: '-', course: 'CS-101' },
-    { id: 'STD-4822', name: 'Olivia Taylor', date: 'Oct 24, 2026', time: '08:30:05 AM', status: 'Present', confidence: '99.5%', course: 'CS-101' },
-    { id: 'STD-9921', name: 'Daniel Martinez', date: 'Oct 24, 2026', time: '08:35:12 AM', status: 'Present', confidence: '98.8%', course: 'CS-101' },
-  ];
+  const [records, setRecords] = useState([]);
+  
+useEffect(() => {
+  const fetchRecords = async () => {
+    try {
+
+      console.log("API calling...");
+
+      const data = await attendanceAPI.getRecords();
+      
+      console.log(data);
+
+      // adjust based on backend response
+      setRecords(data.records || data);
+    } catch (error) {
+      console.error('Error fetching attendance records:', error);
+    }
+  };
+
+  fetchRecords();
+}, []); 
 
   const filteredRecords = activeTab === 'All' 
     ? records 

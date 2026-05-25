@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // The Flask Backend URL (change this to your actual deployment URL in production)
-const BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+const BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5001/api';
 
 const apiClient = axios.create({
   baseURL: BASE_URL,
@@ -27,10 +27,10 @@ export const attendanceAPI = {
   },
   
   // Get detailed attendance records
-  getRecords: async (filter = 'all') => {
-    const response = await apiClient.get(`/attendance/records?filter=${filter}`);
-    return response.data;
-  },
+  getRecords: async () => {
+  const response = await apiClient.get('/attendance');
+  return response.data;
+},
 
   // Post a frame to the face recognition backend
   recognizeFace: async (frameDataUrl) => {
