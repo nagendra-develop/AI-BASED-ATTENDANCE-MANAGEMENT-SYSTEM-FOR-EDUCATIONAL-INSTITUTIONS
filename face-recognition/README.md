@@ -372,12 +372,6 @@ This project combines concepts from:
 - Human-Computer Interaction
 - Embedded AI Systems
 
-Suitable for:
-- Summer Research Internships
-- IEEE Paper Development
-- Smart Campus Automation Research
-- AI + IoT Research Projects
-
 ---
 
 # 📚 Research Domains (EE + CSE Integration)
