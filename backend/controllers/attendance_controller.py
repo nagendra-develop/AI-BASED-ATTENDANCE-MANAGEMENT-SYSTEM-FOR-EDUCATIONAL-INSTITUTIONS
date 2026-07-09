@@ -9,12 +9,18 @@ from utils.response_handler import success_response, error_response
 class AttendanceController:
     @staticmethod
     def mark_attendance():
+        
         data = request.get_json()
         if not data or 'student_id' not in data:
             return error_response("student_id is required")
             
         student_id = data['student_id']
+        #debug purpose
+        print("Received student_id:", student_id)
+        
         student = StudentModel.query.filter_by(student_id=student_id).first()
+        #debug purpose
+        print("Student found:", student) 
         
         if not student:
             return error_response("Student not found", status_code=404)
@@ -42,9 +48,30 @@ class AttendanceController:
 
     @staticmethod
     def get_all_attendance():
-        # Optional: Add filters from query params
-        records = AttendanceModel.query.order_by(AttendanceModel.attendance_date.desc(), AttendanceModel.attendance_time.desc()).all()
-        return success_response("Attendance records retrieved", [r.to_dict() for r in records])
+     records = AttendanceModel.query.order_by(
+        AttendanceModel.attendance_date.desc(),
+        AttendanceModel.attendance_time.desc()
+    ).all()
+
+     attendance_data = []
+     for r in records:
+        student = StudentModel.query.filter_by(
+            student_id=r.student_id
+        ).first()
+
+        attendance_data.append({
+            "id": r.id,
+            "student_id": r.student_id,
+            "full_name": student.full_name if student else "Unknown",
+            "attendance_date": str(r.attendance_date),
+            "attendance_time": str(r.attendance_time),
+            "status": r.status
+        })
+       
+        return success_response(
+        "Attendance records retrieved",
+        attendance_data
+    )
 
     @staticmethod
     def get_student_attendance(student_id):

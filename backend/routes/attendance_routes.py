@@ -34,7 +34,7 @@ def mark_attendance():
     return AttendanceController.mark_attendance()
 
 @attendance_bp.route('', methods=['GET'])
-@jwt_required()
+#@jwt_required()
 def get_all_attendance():
     """
     Get all attendance records

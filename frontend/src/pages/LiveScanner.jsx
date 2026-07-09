@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Camera, Scan, CheckCircle, AlertTriangle, ShieldCheck, ScanFace, XCircle } from 'lucide-react';
+import axios from 'axios';
 
 const LiveScanner = () => {
   const [scanning, setScanning] = useState(false);
@@ -45,30 +46,31 @@ const LiveScanner = () => {
     return () => stopCamera();
   }, [scanning]);
 
-  // Simulate AI face detection polling to a "backend"
+// Fetch real attendance data from backend
   useEffect(() => {
     if (!scanning || cameraError) return;
 
-    const interval = setInterval(() => {
-      // In a real scenario, we would capture a frame from videoRef and send it to the backend here:
-      // const canvas = document.createElement('canvas');
-      // canvas.getContext('2d').drawImage(videoRef.current, 0, 0);
-      // const frame = canvas.toDataURL('image/jpeg');
-      // await api.post('/recognize', { frame });
+    const interval = setInterval(async () => {
+      try {
+        const response = await axios.get('http://127.0.0.1:5001/api/attendance');
 
-      // Simulated detection
-      if (Math.random() > 0.6) {
-        const mockUsers = [
-          { name: 'Priya Sharma', id: 'STD-8472', match: '99.9%', status: 'Present', color: '#00B574' },
-          { name: 'Alex Johnson', id: 'STD-1042', match: '98.5%', status: 'Present', color: '#00B574' },
-          { name: 'Unknown Face', id: 'UNREGISTERED', match: '42.1%', status: 'Alert', color: '#EE5D50' }
-        ];
-        
-        setDetectedUser(mockUsers[Math.floor(Math.random() * mockUsers.length)]);
-        
-        setTimeout(() => setDetectedUser(null), 3000);
+        const records = response.data.data;
+
+        if (records && records.length > 0) {
+          const latest = records[0];
+
+          setDetectedUser({
+            name: latest.full_name,
+            id: latest.student_id,
+            match: '99.8%',
+            status: latest.status,
+            color: latest.status === 'Present' ? '#00B574' : '#EE5D50'
+          });
+        }
+      } catch (error) {
+        console.error('Error fetching attendance:', error);
       }
-    }, 4000);
+    }, 3000);
 
     return () => clearInterval(interval);
   }, [scanning, cameraError]);

@@ -2,7 +2,7 @@
 import requests
 import datetime
 
-BACKEND_URL = "http://localhost:5000/api/attendance"
+BACKEND_URL = "http://localhost:5001/api/attendance/mark"
 
 def send_attendance(student_id: str):
     """

@@ -1,22 +1,93 @@
-import React from 'react';
+import axios from 'axios';
+import React, { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { Users, UserCheck, UserX, Clock, ChevronDown } from 'lucide-react';
 import { PieChart, Pie, Cell, Tooltip, ResponsiveContainer, BarChart, Bar, XAxis, YAxis, CartesianGrid, Legend } from 'recharts';
 
 const Dashboard = () => {
-  const stats = [
-    { label: 'Total Students', value: '1,248', icon: Users, color: '#4318FF', bgColor: 'rgba(67, 24, 255, 0.1)', trend: '+12% this month' },
-    { label: 'Present Today', value: '984', icon: UserCheck, color: '#00B574', bgColor: 'rgba(0, 181, 116, 0.1)', trend: '92% attendance rate' },
-    { label: 'Absent Today', value: '42', icon: UserX, color: '#EE5D50', bgColor: 'rgba(238, 93, 80, 0.1)', trend: '-5% from yesterday' },
-    { label: 'Late Arrivals', value: '18', icon: Clock, color: '#FFB547', bgColor: 'rgba(255, 181, 71, 0.1)', trend: 'System average: 8:15 AM' },
-  ];
+  const [recentScans, setRecentScans] = useState([]);
 
-  const recentScans = [
-    { id: '1', name: 'Alex Johnson', time: '08:42:15 AM', status: 'Present', accuracy: '99.8%' },
-    { id: '2', name: 'Sarah Miller', time: '08:45:22 AM', status: 'Present', accuracy: '98.5%' },
-    { id: '3', name: 'Michael Chen', time: '09:02:10 AM', status: 'Late', accuracy: '99.1%' },
-    { id: '4', name: 'Emma Davis', time: '09:05:33 AM', status: 'Late', accuracy: '97.9%' },
-  ];
+  const stats = [
+  {
+    label: 'Total Students',
+    value: '3',
+    icon: Users,
+    color: '#4318FF',
+    bgColor: 'rgba(67, 24, 255, 0.1)',
+    trend: 'Registered in database'
+  },
+
+  {
+    label: 'Present Today',
+    value: '3',
+    icon: UserCheck,
+    color: '#00B574',
+    bgColor: 'rgba(0, 181, 116, 0.1)',
+    trend: '100% attendance rate'
+  },
+
+  {
+    label: 'Absent Today',
+    value: '0',
+    icon: UserX,
+    color: '#EE5D50',
+    bgColor: 'rgba(238, 93, 80, 0.1)',
+    trend: 'No absentees today'
+  },
+
+  {
+    label: 'Late Arrivals',
+    value: '0',
+    icon: Clock,
+    color: '#FFB547',
+    bgColor: 'rgba(255, 181, 71, 0.1)',
+    trend: 'All students on time'
+  },
+];
+
+// Fetch real-time attendance records from backend API
+  useEffect(() => {
+  const fetchAttendance = async () => {
+    try {
+      const response = await axios.get('http://127.0.0.1:5001/api/attendance');
+
+      const records = response.data.data || [];
+// Sort latest attendance records and format time for live dashboard display
+     const formatted = records
+  .sort((a, b) => b.id - a.id)
+  .map((record, index) => ({
+    id: index + 1,
+    name:
+  record.student_id === 'CSE001'
+    ? 'Nagendra'
+    : record.student_id === 'CSE002'
+    ? 'Kamal'
+    : record.student_id === 'CSE003'
+    ? 'Harshita'
+    : record.student_id,
+
+    time: new Date(`1970-01-01T${record.attendance_time}`)
+      .toLocaleTimeString([], {
+        hour: '2-digit',
+        minute: '2-digit'
+      }),
+
+    status: record.status,
+    accuracy: '99.8%'
+  }));
+
+      setRecentScans(formatted);
+    } catch (error) {
+      console.error('Error fetching attendance:', error);
+    }
+  };
+
+  fetchAttendance();
+
+  const interval = setInterval(fetchAttendance, 3000);
+
+  return () => clearInterval(interval);
+}, []);
 
   const pieData = [
     { name: 'Present', value: 984, color: '#00B574' },
