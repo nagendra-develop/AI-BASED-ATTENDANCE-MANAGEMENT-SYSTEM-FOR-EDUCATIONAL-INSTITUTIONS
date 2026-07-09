@@ -15,6 +15,12 @@ venv/
 .venv/
 env/
 
+# Python virtual environments
+venv/
+.venv/
+**/venv/
+**/.venv/
+
 # Secrets and Environment Files
 .env
 .env.*
